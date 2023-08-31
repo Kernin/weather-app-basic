@@ -1,0 +1,13 @@
+.weatherWrapper{
+  color:#3d3d3d;
+  background:#f0f0f0;
+  border-radius: 15px;
+  padding:10px 25px;
+  border: solid 1px #0d0d0d;
+  height:80%;
+  width:60%;
+  margin:auto;
+
+  min-width:500px;
+  min-height:550px;
+}

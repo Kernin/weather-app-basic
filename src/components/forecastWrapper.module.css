@@ -1,0 +1,37 @@
+.forecastWrapper{
+  width:100%;
+  height:auto;
+  min-height:200px;
+  min-width:200px;
+
+  display:grid;
+  border:none;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap:10px;
+  color:#030303;
+
+  font-size:3rem;
+  font-weight:300;
+}
+
+.forecastWrapper > article{
+  min-width:50%;
+  min-height:50%;
+  background:lightgrey;
+  text-align:center;
+  border-radius:12%;
+
+  border:solid 1px gray ;
+}
+
+.forecastdays h5{
+  margin:0px;
+  padding:2px;
+  font-size:28px;
+}
+
+.forecastdays p{
+  margin-top:0px;
+  padding:2px;
+  font-size:16px;
+}
